@@ -29,7 +29,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('authuser', [AuthController::class, 'getUser']);
     Route::post('logout', [AuthController::class, 'logout']);
 
-    Route::get('comments/{cityId}', [CommentController::class, 'index']);
+    Route::get('comments/get/{cityId}', [CommentController::class, 'index']);
     Route::post('comments/{cityId}', [CommentController::class, 'store']); // /cities/{cityId}/comments
     Route::get('comment/{commentId}', [CommentController::class, 'getComment']);/* 'CommentController@getComment' */
 });
