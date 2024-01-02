@@ -27,9 +27,9 @@ An example of the `store` function:
 
 # Migrations
 
-An example of the `comments` table inside the MySQL database. Laravel uses an ORM:
-
 ![Migrations](https://github.com/ECH-CHADLI/laravelApiCities/assets/118133139/66944d0f-2d1a-4591-90ca-aaabbda0d10d)
+
+An example of the `comments` table inside the MySQL database. Laravel uses an ORM:
 
 ![Comments Table](https://github.com/ECH-CHADLI/laravelApiCities/assets/118133139/723a0cff-5a7f-4fd4-9673-c752bce116a1)
 
@@ -37,9 +37,9 @@ An example of the `comments` table inside the MySQL database. Laravel uses an OR
 
 # Models
 
-An example of the `Comment` model:
-
 ![Models](https://github.com/ECH-CHADLI/laravelApiCities/assets/118133139/acdd25b0-76d2-4c8a-9fef-6bcd60211520)
+
+An example of the `Comment` model:
 
 ![Comment Model](https://github.com/ECH-CHADLI/laravelApiCities/assets/118133139/34bd4cc5-adf2-479d-a816-ac469e943e05)
 
