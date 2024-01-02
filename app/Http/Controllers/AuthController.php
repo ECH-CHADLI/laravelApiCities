@@ -50,7 +50,7 @@ class AuthController extends Controller
         $user = User::where('email', $fields['email'])->first();  // the scope resolution operator(::) is used for calling static methods and properties (class level, and namespace resolution), the arrow operator(->) for normal methods and properties for an object
 
         // checking password
-        if(!$user || !Hash::check($fields['password'], $user->password)) { //?
+        if(!$user || !Hash::check($fields['password'], $user->password)) { 
             return response([
                 'message' => 'Wrong creds'
             ], 401);
